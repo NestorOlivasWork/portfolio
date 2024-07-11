@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaTelegram } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <div className="py-2 bg-[#02050a] relative">
+        <div className="py-2 bg-blue-500 relative rounded-2xl shadow-2xl">
             <div className="grid border-b border-gray-400 pb-6 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-4/5 mx-auto gap-6">
                 <div className="flex items-center space-x-4">
                     <div className="flex-shrink-0 w-20 h-20 md:w-26 md:h-26 flex items-center justify-center rounded-full bg-[#55e6a5]">
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
                 <div className="flex justify-center md:justify-end space-x-6">
                     <a href="https://github.com/NestorOlivasWork" target="_blank" rel="noopener noreferrer">
-                        <FaGithub className="text-white text-2xl hover:text-gray-400 transition-colors duration-200" />
+                        <FaGithub className="text-white text-2xl hover:text-gray-400  duration-200" />
                     </a>
                     <a href="https://t.me/Galactic_Nestor" target="_blank" rel="noopener noreferrer">
                         <FaTelegram className="text-white text-2xl hover:text-gray-400 transition-colors duration-200" />
